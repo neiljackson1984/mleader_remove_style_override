@@ -23,8 +23,8 @@ using System.Diagnostics;
 using Autodesk.AutoCAD.EditorInput;
 using Autodesk.AutoCAD.GraphicsInterface;
 
-[assembly: Autodesk.AutoCAD.Runtime.ExtensionApplication(null)]
-[assembly: CommandClass(typeof(JigSample.TestEntityJig))]
+[assembly: Autodesk.AutoCAD.Runtime.ExtensionApplication(typeof(mleader_remove_style_override.mleader_remove_style_overrideApp))]
+[assembly: Autodesk.AutoCAD.Runtime.CommandClass(typeof(mleader_remove_style_override.mleader_remove_style_overrideCommands))]
 
 
 //This application implements a command called ellipsejig. It will help you 
@@ -40,10 +40,32 @@ using Autodesk.AutoCAD.GraphicsInterface;
 //Autodesk.AutoCAD.Interop.dll and Autodesk.AutoCAD.Interop.Common.dll
 //before trying to build this project.
 
-namespace JigSample
+namespace mleader_remove_style_override
 {
-	public class TestEntityJig 
-	{
+    public class mleader_remove_style_overrideApp : Autodesk.AutoCAD.Runtime.IExtensionApplication
+    {
+        public mleader_remove_style_overrideApp()
+        {
+
+
+        }
+
+        public void Initialize()
+        {
+
+
+        }
+
+        public void Terminate()
+        {
+
+
+        }
+
+    }
+
+    public class mleader_remove_style_overrideCommands
+    {
 		class EllipseJig : EntityJig	
 		{
 			Point3d mCenterPt,mAxisPt,acquiredPoint;

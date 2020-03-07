@@ -94,7 +94,6 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>echo autohotkey "$(ProjectDir)executeInAutocad.ahk" "$(TargetPath)" &gt; execute_in_autocad.bat</PostBuildEvent>
   </PropertyGroup>
 </Project>
