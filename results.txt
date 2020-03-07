@@ -1,0 +1,1070 @@
+Dump of file acad.exe
+Dump of file accoreconsole.exe
+Dump of file AcSignApply.exe
+Dump of file AcTranslators.exe
+  Section contains the following exports for AcTranslators.exe
+Dump of file adcadmn.exe
+Dump of file addplwiz.exe
+Dump of file AdMigrator.exe
+Dump of file ADPClientService.exe
+Dump of file AdPreviewGenerator.exe
+Dump of file AdRefMan.exe
+Dump of file AdSubAware.exe
+Dump of file CPCompare.exe
+Dump of file DADispatcherService.exe
+Dump of file Dwg2Spd.exe
+Dump of file DwgCheckStandards.exe
+Dump of file patchTracker.exe
+Dump of file pc3exe.exe
+Dump of file senddmp.exe
+Dump of file slidelib.exe
+Dump of file styexe.exe
+  Section contains the following exports for styexe.exe
+Dump of file styshwiz.exe
+Dump of file ac1st23.dll
+  Section contains the following exports for ac1st23.dll
+Dump of file acadinet.dll
+Dump of file AcadMaxTransferWorkflow.dll
+  Section contains the following exports for AcadMaxTransferWorkflow.dll
+Dump of file AcAeNet.dll
+Dump of file AcAnimationVideo.dll
+  Section contains the following exports for AcAnimationVideo.dll
+Dump of file acbol.dll
+  Section contains the following exports for acbol.dll
+Dump of file AcBrandRes.dll
+  Section contains the following exports for AcBrandRes.dll
+Dump of file AcCalcUi.dll
+Dump of file AcCloudRender.dll
+Dump of file AcCommandToolTips.dll
+Dump of file accore.dll
+  Section contains the following exports for accore.dll
+       5958 1731 00926E64 ?setOverrideSettings@AcPlPlotInfo@@QEAAXPEBVAcDbPlotSettings@@@Z
+Dump of file accoremgd.dll
+  Section contains the following exports for accoremgd.dll
+Dump of file AcCui.dll
+Dump of file AcCustomize.dll
+Dump of file acdb23.dll
+  Section contains the following exports for acdb23.dll
+      18607 48A0 00A3EE04 ?setOverride@AcDbDimensionObjectContextData@@UEAA?AW4ErrorStatus@Acad@@W4Code@AcDm@@_N@Z
+      18608 48A1 00A8EDBC ?setOverride@AcDbFormattedTableData@@UEAA?AW4ErrorStatus@Acad@@HHHW4CellProperty@AcDb@@@Z
+      18609 48A2 00A8EDD0 ?setOverride@AcDbFormattedTableData@@UEAA?AW4ErrorStatus@Acad@@HHW4GridLineType@AcDb@@W4GridProperty@5@@Z
+      18610 48A3 00A88A30 ?setOverride@AcDbMLeader@@QEAA?AW4ErrorStatus@Acad@@W4PropertyOverrideType@1@_N@Z
+      18611 48A4 00A70928 ?setOverride@AcDbTable@@QEAA?AW4ErrorStatus@Acad@@HHHW4CellProperty@AcDb@@@Z
+      18612 48A5 00A70970 ?setOverride@AcDbTable@@QEAA?AW4ErrorStatus@Acad@@HHW4GridLineType@AcDb@@W4GridProperty@5@@Z
+      18613 48A6 00AA638C ?setOverrideCenter@AcDbRadialDimensionLarge@@QEAA?AW4ErrorStatus@Acad@@AEBVAcGePoint3d@@@Z
+      18614 48A7 00A84A60 ?setOverrideCenter@AcDbRadialDimensionLargeObjectContextData@@QEAA?AW4ErrorStatus@Acad@@AEBVAcGePoint3d@@@Z
+      18615 48A8 00AA6664 ?setOverrideCenterPP@AcDbRadialDimensionLarge@@QEAA?AW4ErrorStatus@Acad@@AEBVAcGePoint3d@@@Z
+      18616 48A9 00A50720 ?setOverridenItems@AcDbAssocArrayModifyActionBody@@QEAA?AW4ErrorStatus@Acad@@AEBV?$AcArray@VAcDbItemLocator@@V?$AcArrayObjectCopyReallocator@VAcDbItemLocator@@@@@@@Z
+Dump of file acdbmgd.dll
+Dump of file acdbmgdbrep.dll
+  Section contains the following exports for acdbmgdbrep.dll
+Dump of file acDcUtils.dll
+Dump of file AcDgnMsStr.dll
+  Section contains the following exports for AcDgnMsStr.dll
+Dump of file AcDialogToolTips.dll
+Dump of file AcDimX23.dll
+  Section contains the following exports for AcDimX23.dll
+Dump of file AcDrawBridge.dll
+  Section contains the following exports for AcDrawBridge.dll
+Dump of file AcDrawStream.dll
+  Section contains the following exports for AcDrawStream.dll
+Dump of file AcDs.dll
+  Section contains the following exports for AcDs.dll
+Dump of file AcDx.dll
+Dump of file AcDxPublishUi.dll
+Dump of file AcDxUi.dll
+  Section contains the following exports for AcDxUi.dll
+Dump of file AcDxWizard.dll
+Dump of file AcEditSpinAtl.dll
+Dump of file AcETransmit.dll
+  Section contains the following exports for AcETransmit.dll
+Dump of file AcExportLayout.dll
+Dump of file AcExportLayoutEx.dll
+Dump of file AcExportLayoutUI.dll
+Dump of file acge23.dll
+Dump of file acgex23.dll
+Dump of file AcGradient23.dll
+  Section contains the following exports for AcGradient23.dll
+Dump of file acgs.dll
+  Section contains the following exports for acgs.dll
+Dump of file acgsn.dll
+  Section contains the following exports for acgsn.dll
+Dump of file AcHelpWrapper.dll
+  Section contains the following exports for AcHelpWrapper.dll
+Dump of file AcInetUI.dll
+  Section contains the following exports for AcInetUI.dll
+Dump of file AcInterfere.dll
+Dump of file AcIPC_2_x64.dll
+Dump of file AcJab.dll
+Dump of file AcLayer.dll
+Dump of file AcLayerTools.dll
+Dump of file aclbed.dll
+Dump of file aclinetype.dll
+Dump of file acmgd.dll
+Dump of file AcMNUParser.dll
+Dump of file AcModelDocCOM.dll
+  Section contains the following exports for AcModelDocCOM.dll
+Dump of file AcMPolygonCom.dll
+Dump of file AcMPolygonMGD.dll
+  Section contains the following exports for AcMPolygonMGD.dll
+Dump of file AcMr.DLL
+Dump of file AcMrUi.DLL
+Dump of file AcMultiLineUi.dll
+Dump of file acpal.dll
+Dump of file AcPersSubentNaming23.dll
+  Section contains the following exports for AcPersSubentNaming23.dll
+Dump of file AcPTPCParser.dll
+  Section contains the following exports for AcPTPCParser.dll
+Dump of file AcRecoverAll.dll
+Dump of file AcScaleList.dll
+Dump of file AcSceneCOM.dll
+  Section contains the following exports for AcSceneCOM.dll
+Dump of file AcSeamless.dll
+Dump of file AcShareViewProps.dll
+Dump of file AcShareViewPropsCore.dll
+Dump of file AcShareViewPropsMgd.dll
+  Section contains the following exports for AcShareViewPropsMgd.dll
+Dump of file AcSmComponents.dll
+  Section contains the following exports for AcSmComponents.dll
+Dump of file AcSpellEng.dll
+  Section contains the following exports for AcSpellEng.dll
+Dump of file AcSqlData.dll
+  Section contains the following exports for AcSqlData.dll
+Dump of file AcSqlEng.dll
+  Section contains the following exports for AcSqlEng.dll
+Dump of file AcStdBatch.dll
+Dump of file AcStDStyle.dll
+  Section contains the following exports for AcStDStyle.dll
+Dump of file AcStLay.dll
+  Section contains the following exports for AcStLay.dll
+Dump of file AcStLtype.dll
+  Section contains the following exports for AcStLtype.dll
+Dump of file AcStMgr.dll
+  Section contains the following exports for AcStMgr.dll
+Dump of file AcStMLeaderStyle.dll
+  Section contains the following exports for AcStMLeaderStyle.dll
+Dump of file AcStTStyle.dll
+  Section contains the following exports for AcStTStyle.dll
+Dump of file AcTaskDialogs.dll
+Dump of file AcTc.dll
+  Section contains the following exports for AcTc.dll
+Dump of file AcTcMgd.dll
+Dump of file AcTcUi.dll
+  Section contains the following exports for AcTcUi.dll
+Dump of file AcTmpTbl.dll
+  Section contains the following exports for AcTmpTbl.dll
+Dump of file AcTranslatorsIS.dll
+  Section contains the following exports for AcTranslatorsIS.dll
+Dump of file acui23.dll
+  Section contains the following exports for acui23.dll
+Dump of file AcUnderlay.DLL
+Dump of file AcUt.dll
+  Section contains the following exports for AcUt.dll
+Dump of file AcViewTransitionsUi.dll
+Dump of file AcWebDAV23.dll
+  Section contains the following exports for AcWebDAV23.dll
+Dump of file AcWindows.dll
+Dump of file AcXrefUtil.dll
+  Section contains the following exports for AcXrefUtil.dll
+Dump of file AcXrefVaultUI.dll
+  Section contains the following exports for AcXrefVaultUI.dll
+Dump of file AdApplicationFrame.dll
+  Section contains the following exports for AdApplicationFrame.dll
+Dump of file AdAppMgrSvcInt.dll
+  Section contains the following exports for AdAppMgrSvcInt.dll
+Dump of file AdComFolderWatch.dll
+  Section contains the following exports for AdComFolderWatch.dll
+Dump of file AdCoreUnits-16.dll
+  Section contains the following exports for AdCoreUnits-16.dll
+Dump of file AdCoreUnitsUI-16.dll
+  Section contains the following exports for AdCoreUnitsUI-16.dll
+Dump of file adctrls.dll
+Dump of file AdDownloaderCore.dll
+  Section contains the following exports for AdDownloaderCore.dll
+Dump of file AdDwfPdk.dll
+  Section contains the following exports for AdDwfPdk.dll
+Dump of file AdDwfPdkCommon.dll
+  Section contains the following exports for AdDwfPdkCommon.dll
+Dump of file AdDwfPdkDLLongLW.dll
+  Section contains the following exports for AdDwfPdkDLLongLW.dll
+Dump of file AdDwfPdkEPlotCommon.dll
+  Section contains the following exports for AdDwfPdkEPlotCommon.dll
+Dump of file AdDwfPdkEPlotCore.dll
+  Section contains the following exports for AdDwfPdkEPlotCore.dll
+Dump of file AdDwfPdkEPlotRenderer.dll
+  Section contains the following exports for AdDwfPdkEPlotRenderer.dll
+Dump of file AdDwfPdkImagingServices1.dll
+  Section contains the following exports for AdDwfPdkImagingServices1.dll
+Dump of file AdFTP.dll
+  Section contains the following exports for AdFTP.dll
+Dump of file adHostableUi.dll
+Dump of file AdImaging.dll
+  Section contains the following exports for AdImaging.dll
+Dump of file AdInCanvasUI.dll
+  Section contains the following exports for AdInCanvasUI.dll
+Dump of file AdIntImgServices.dll
+  Section contains the following exports for AdIntImgServices.dll
+Dump of file AdMaterialUI.dll
+  Section contains the following exports for AdMaterialUI.dll
+Dump of file AdMigLib.dll
+Dump of file AdpSDKCore.dll
+  Section contains the following exports for AdpSDKCore.dll
+Dump of file AdpSDKCSharpWrapper.dll
+Dump of file AdpSDKUI.dll
+  Section contains the following exports for AdpSDKUI.dll
+Dump of file AdpSDKWrapper.dll
+  Section contains the following exports for AdpSDKWrapper.dll
+Dump of file adp_application-1_0-vc140-x64-wt.dll
+  Section contains the following exports for adp_application-1_0-vc140-x64-wt.dll
+Dump of file adp_core-1_0-vc140-x64-wt.dll
+  Section contains the following exports for adp_core-1_0-vc140-x64-wt.dll
+Dump of file adp_core-6_1.dll
+  Section contains the following exports for adp_core-6_1.dll
+Dump of file adp_data-6_1.dll
+  Section contains the following exports for adp_data-6_1.dll
+Dump of file adp_service_opczip-1_0-vc140-x64-wt.dll
+  Section contains the following exports for adp_service_opczip-1_0-vc140-x64-wt.dll
+Dump of file adp_service_opczip-6_1.dll
+  Section contains the following exports for adp_service_opczip-6_1.dll
+Dump of file adp_service_reporting-1_0-vc140-x64-wt.dll
+  Section contains the following exports for adp_service_reporting-1_0-vc140-x64-wt.dll
+Dump of file adp_toolkit-1_0-vc140-x64-wt.dll
+  Section contains the following exports for adp_toolkit-1_0-vc140-x64-wt.dll
+Dump of file adp_toolkit-6_1.dll
+  Section contains the following exports for adp_toolkit-6_1.dll
+Dump of file adskassetapi_new-16.dll
+  Section contains the following exports for adskassetapi_new-16.dll
+Dump of file AdskConnectionPointMgd.dll
+Dump of file AdskLicensingSDK_2.dll
+  Section contains the following exports for AdskLicensingSDK_2.dll
+Dump of file AdskRcAdp.dll
+  Section contains the following exports for AdskRcAdp.dll
+Dump of file AdskRcCommon.dll
+  Section contains the following exports for AdskRcCommon.dll
+Dump of file AdskRcConfig.dll
+  Section contains the following exports for AdskRcConfig.dll
+Dump of file AdskRcData.dll
+  Section contains the following exports for AdskRcData.dll
+Dump of file AdskRcDataAccess.dll
+  Section contains the following exports for AdskRcDataAccess.dll
+Dump of file AdskRcDevTools.dll
+  Section contains the following exports for AdskRcDevTools.dll
+Dump of file AdskRcExport.dll
+  Section contains the following exports for AdskRcExport.dll
+Dump of file AdskRcFileSystemUtility.dll
+  Section contains the following exports for AdskRcFileSystemUtility.dll
+Dump of file AdskRcFilter.dll
+  Section contains the following exports for AdskRcFilter.dll
+Dump of file AdskRcImageIO.dll
+  Section contains the following exports for AdskRcImageIO.dll
+Dump of file AdskRcImport.dll
+  Section contains the following exports for AdskRcImport.dll
+Dump of file AdskRcPointCloudEngine.dll
+  Section contains the following exports for AdskRcPointCloudEngine.dll
+Dump of file AdskRcProjectIO.dll
+  Section contains the following exports for AdskRcProjectIO.dll
+Dump of file AdskRcSpatialReference.dll
+  Section contains the following exports for AdskRcSpatialReference.dll
+Dump of file AdskRcUtility.dll
+  Section contains the following exports for AdskRcUtility.dll
+Dump of file AdskRealityStudioBaseAPI.dll
+  Section contains the following exports for AdskRealityStudioBaseAPI.dll
+Dump of file AdskRealityStudioFeatureExtraction.dll
+  Section contains the following exports for AdskRealityStudioFeatureExtraction.dll
+Dump of file AdskRealityStudioHLAPI.dll
+  Section contains the following exports for AdskRealityStudioHLAPI.dll
+Dump of file AdSpatialReference.dll
+  Section contains the following exports for AdSpatialReference.dll
+Dump of file AdSSOServices.dll
+  Section contains the following exports for AdSSOServices.dll
+Dump of file adui23.dll
+  Section contains the following exports for adui23.dll
+Dump of file AdUICore.dll
+  Section contains the following exports for AdUICore.dll
+Dump of file AdUIMgd.dll
+Dump of file AdUiPalettes.dll
+Dump of file AdWindows.dll
+Dump of file AdWorkflowCore.dll
+  Section contains the following exports for AdWorkflowCore.dll
+Dump of file AdWorkflowUI.dll
+  Section contains the following exports for AdWorkflowUI.dll
+Dump of file AecADTUPI_OE.dll
+Dump of file AecArchXOE.dll
+Dump of file AecbPartBase.dll
+  Section contains the following exports for AecbPartBase.dll
+Dump of file AeciMultispectralCodec.dll
+  Section contains the following exports for AeciMultispectralCodec.dll
+Dump of file AeciRm.dll
+  Section contains the following exports for AeciRm.dll
+Dump of file AecResMgr.dll
+  Section contains the following exports for AecResMgr.dll
+Dump of file AecResUI.dll
+  Section contains the following exports for AecResUI.dll
+Dump of file AecScript.dll
+  Section contains the following exports for AecScript.dll
+Dump of file AecSystemTools.dll
+  Section contains the following exports for AecSystemTools.dll
+Dump of file AecUIWindows.dll
+Dump of file anav.dll
+  Section contains the following exports for anav.dll
+Dump of file ANN.dll
+  Section contains the following exports for ANN.dll
+Dump of file apperr.dll
+  Section contains the following exports for apperr.dll
+Dump of file ASMAHL225A.dll
+  Section contains the following exports for ASMAHL225A.dll
+Dump of file ASMBASE225A.dll
+  Section contains the following exports for ASMBASE225A.dll
+Dump of file ASMBLND225A.dll
+  Section contains the following exports for ASMBLND225A.dll
+Dump of file ASMBOOL225A.dll
+  Section contains the following exports for ASMBOOL225A.dll
+Dump of file ASMCOVR225A.dll
+  Section contains the following exports for ASMCOVR225A.dll
+Dump of file ASMCSTR225A.dll
+  Section contains the following exports for ASMCSTR225A.dll
+Dump of file ASMCT225A.dll
+  Section contains the following exports for ASMCT225A.dll
+Dump of file ASMDatax225A.dll
+Dump of file ASMDEFM225A.dll
+  Section contains the following exports for ASMDEFM225A.dll
+Dump of file ASMEULR225A.dll
+  Section contains the following exports for ASMEULR225A.dll
+Dump of file ASMFCT225A.dll
+  Section contains the following exports for ASMFCT225A.dll
+Dump of file ASMFREC225A.dll
+  Section contains the following exports for ASMFREC225A.dll
+Dump of file ASMGA225A.dll
+  Section contains the following exports for ASMGA225A.dll
+Dump of file ASMHEAL225A.dll
+  Section contains the following exports for ASMHEAL225A.dll
+Dump of file ASMIMPORT225A.dll
+  Section contains the following exports for ASMIMPORT225A.dll
+Dump of file ASMINTR225A.dll
+  Section contains the following exports for ASMINTR225A.dll
+Dump of file ASMKERN225A.dll
+  Section contains the following exports for ASMKERN225A.dll
+Dump of file ASMLAW225A.dll
+  Section contains the following exports for ASMLAW225A.dll
+Dump of file ASMLOP225A.dll
+  Section contains the following exports for ASMLOP225A.dll
+Dump of file ASMLOPT225A.dll
+  Section contains the following exports for ASMLOPT225A.dll
+Dump of file ASMMATRIX225A.dll
+  Section contains the following exports for ASMMATRIX225A.dll
+Dump of file ASMNPCH225A.dll
+  Section contains the following exports for ASMNPCH225A.dll
+Dump of file ASMOFST225A.dll
+  Section contains the following exports for ASMOFST225A.dll
+Dump of file ASMOPER225A.dll
+  Section contains the following exports for ASMOPER225A.dll
+Dump of file ASMPID225A.dll
+  Section contains the following exports for ASMPID225A.dll
+Dump of file ASMRB225A.dll
+  Section contains the following exports for ASMRB225A.dll
+Dump of file ASMRBI225A.dll
+  Section contains the following exports for ASMRBI225A.dll
+Dump of file ASMREM225A.dll
+  Section contains the following exports for ASMREM225A.dll
+Dump of file ASMSBAP225A.dll
+  Section contains the following exports for ASMSBAP225A.dll
+Dump of file ASMSBOOL225A.dll
+  Section contains the following exports for ASMSBOOL225A.dll
+Dump of file ASMSHL225A.dll
+  Section contains the following exports for ASMSHL225A.dll
+Dump of file ASMSKIN225A.dll
+  Section contains the following exports for ASMSKIN225A.dll
+Dump of file ASMSWP225A.dll
+  Section contains the following exports for ASMSWP225A.dll
+Dump of file ASMTOPT225A.dll
+  Section contains the following exports for ASMTOPT225A.dll
+Dump of file ASMTWK225A.dll
+  Section contains the following exports for ASMTWK225A.dll
+Dump of file ASMUFLD225A.dll
+  Section contains the following exports for ASMUFLD225A.dll
+Dump of file ASMWELD225A.dll
+  Section contains the following exports for ASMWELD225A.dll
+Dump of file atf_api.dll
+  Section contains the following exports for atf_api.dll
+Dump of file atf_asm_interface.dll
+  Section contains the following exports for atf_asm_interface.dll
+Dump of file atf_catv4_producer.dll
+  Section contains the following exports for atf_catv4_producer.dll
+Dump of file atf_catv5_producer.dll
+  Section contains the following exports for atf_catv5_producer.dll
+Dump of file atf_dwg_consumer.dll
+  Section contains the following exports for atf_dwg_consumer.dll
+Dump of file atf_dwg_iges_extension_data.dll
+  Section contains the following exports for atf_dwg_iges_extension_data.dll
+Dump of file atf_dwg_producer.dll
+  Section contains the following exports for atf_dwg_producer.dll
+Dump of file atf_extension_data.dll
+  Section contains the following exports for atf_extension_data.dll
+Dump of file atf_iges_consumer.dll
+  Section contains the following exports for atf_iges_consumer.dll
+Dump of file atf_iges_producer.dll
+  Section contains the following exports for atf_iges_producer.dll
+Dump of file atf_jt_producer.dll
+  Section contains the following exports for atf_jt_producer.dll
+Dump of file atf_jt_util.dll
+  Section contains the following exports for atf_jt_util.dll
+Dump of file atf_nx_producer.dll
+  Section contains the following exports for atf_nx_producer.dll
+Dump of file atf_parasolid_bridge.dll
+  Section contains the following exports for atf_parasolid_bridge.dll
+Dump of file atf_parasolid_producer.dll
+  Section contains the following exports for atf_parasolid_producer.dll
+Dump of file atf_physical_material_extension_data.dll
+  Section contains the following exports for atf_physical_material_extension_data.dll
+Dump of file atf_pmi3da_extension_data.dll
+  Section contains the following exports for atf_pmi3da_extension_data.dll
+Dump of file atf_processor.dll
+  Section contains the following exports for atf_processor.dll
+Dump of file atf_processor_extension_data.dll
+  Section contains the following exports for atf_processor_extension_data.dll
+Dump of file atf_proe_producer.dll
+  Section contains the following exports for atf_proe_producer.dll
+Dump of file atf_rhino_producer.dll
+  Section contains the following exports for atf_rhino_producer.dll
+Dump of file atf_sat_consumer.dll
+  Section contains the following exports for atf_sat_consumer.dll
+Dump of file atf_sat_producer.dll
+  Section contains the following exports for atf_sat_producer.dll
+Dump of file atf_step_consumer.dll
+  Section contains the following exports for atf_step_consumer.dll
+Dump of file atf_step_extension_data.dll
+  Section contains the following exports for atf_step_extension_data.dll
+Dump of file atf_step_producer.dll
+  Section contains the following exports for atf_step_producer.dll
+Dump of file atf_stl_consumer.dll
+  Section contains the following exports for atf_stl_consumer.dll
+Dump of file atf_stl_producer.dll
+  Section contains the following exports for atf_stl_producer.dll
+Dump of file atf_swx_producer.dll
+  Section contains the following exports for atf_swx_producer.dll
+Dump of file atf_xml_consumer.dll
+  Section contains the following exports for atf_xml_consumer.dll
+Dump of file atf_xml_producer.dll
+  Section contains the following exports for atf_xml_producer.dll
+Dump of file atf_xml_util.dll
+  Section contains the following exports for atf_xml_util.dll
+Dump of file atlst23.dll
+  Section contains the following exports for atlst23.dll
+Dump of file Autodesk.Act.Content.DLL
+Dump of file Autodesk.Act.Core.DLL
+Dump of file Autodesk.AutoCAD.Interop.Common.dll
+Dump of file Autodesk.AutoCAD.Interop.dll
+Dump of file axdb.dll
+  Section contains the following exports for axdb.dll
+Dump of file BCSPSE.dll
+  Section contains the following exports for BCSPSE.dll
+Dump of file Bentley2.dll
+  Section contains the following exports for Bentley2.dll
+Dump of file BentleyGeom2.dll
+  Section contains the following exports for BentleyGeom2.dll
+Dump of file bentleylogging-2.0.dll
+  Section contains the following exports for bentleylogging-2.0.dll
+Dump of file BuildingComponent-1_0-vc140-x64-wt.dll
+  Section contains the following exports for BuildingComponent-1_0-vc140-x64-wt.dll
+Dump of file BuildingSite-1_0-vc140-x64-wt.dll
+  Section contains the following exports for BuildingSite-1_0-vc140-x64-wt.dll
+Dump of file cao20.dll
+Dump of file CC5Dll.dll
+  Section contains the following exports for CC5Dll.dll
+Dump of file color.dll
+  Section contains the following exports for color.dll
+Dump of file ConDataGrid.dll
+Dump of file CPCompareLib.dll
+Dump of file csp16.dll
+  Section contains the following exports for csp16.dll
+Dump of file D3DCompiler_47.dll
+Dump of file dbghelp.dll
+  Section contains the following exports for dbghelp.dll
+Dump of file dcu2d67.dll
+  Section contains the following exports for dcu2d67.dll
+Dump of file dcu2dnet67.dll
+Dump of file ddelib.dll
+Dump of file DesignDescription.dll
+  Section contains the following exports for DesignDescription.dll
+Dump of file DesignMetaData.dll
+Dump of file DgnCore2.dll
+  Section contains the following exports for DgnCore2.dll
+       5351 14E6 00087D90 ?pattern_setOverrideCell@Bentley@@YAXPEBUMSElementDescr@DgnPlatform@1@@Z
+Dump of file DgnFileIO2.dll
+  Section contains the following exports for DgnFileIO2.dll
+Dump of file DgnHandlers2.dll
+  Section contains the following exports for DgnHandlers2.dll
+        486  1E5 002254F0 ?ClearOverlineOffsetOverride@RunProperties@DgnPlatform@Bentley@@QEAAXXZ
+        490  1E9 002255D0 ?ClearRunOffsetOverride@RunProperties@DgnPlatform@Bentley@@QEAAXXZ
+        497  1F0 00225870 ?ClearUnderlineOffsetOverride@RunProperties@DgnPlatform@Bentley@@QEAAXXZ
+       4895 131E 000FDDE0 ?mdlDim_setOverrides@Bentley@@YAHAEAUEditElementHandle@DgnPlatform@1@PEAUDimStylePropMask@31@@Z
+       4896 131F 000FDF10 ?mdlDim_setOverridesDirect@Bentley@@YAHAEAUEditElementHandle@DgnPlatform@1@PEAUDimStylePropMask@31@_N@Z
+Dump of file DgnPlatformTools2.dll
+  Section contains the following exports for DgnPlatformTools2.dll
+Dump of file dswhip.dll
+  Section contains the following exports for dswhip.dll
+Dump of file ECObjects3.dll
+  Section contains the following exports for ECObjects3.dll
+Dump of file Effects11.dll
+  Section contains the following exports for Effects11.dll
+Dump of file FeatureExtractionCore.dll
+  Section contains the following exports for FeatureExtractionCore.dll
+Dump of file fontcap.dll
+  Section contains the following exports for fontcap.dll
+Dump of file freetype263.dll
+  Section contains the following exports for freetype263.dll
+Dump of file gAnnotationsC5.dll
+gAnnotationsC5.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file gAnnotationsC6.dll
+  Section contains the following exports for gAnnotationsC6.dll
+Dump of file gBaseC5.dll
+gBaseC5.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file gBaseC6.dll
+  Section contains the following exports for gBaseC6.dll
+       4577 11E0 008A0878 ?fgDOMCharsetOverridesXMLEncoding@XMLUni@xercesc_3_2@@2QB_WB
+Dump of file gGeometryC5.dll
+gGeometryC5.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file gGeometryC6.dll
+  Section contains the following exports for gGeometryC6.dll
+Dump of file gpiC5.dll
+gpiC5.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file gpiC6.dll
+  Section contains the following exports for gpiC6.dll
+Dump of file gTranslatorC5.dll
+gTranslatorC5.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file gTranslatorC6.dll
+  Section contains the following exports for gTranslatorC6.dll
+Dump of file HaveDisk.dll
+  Section contains the following exports for HaveDisk.dll
+Dump of file hcreg15.dll
+  Section contains the following exports for hcreg15.dll
+Dump of file heidi15.dll
+  Section contains the following exports for heidi15.dll
+Dump of file icudt55.dll
+  Section contains the following exports for icudt55.dll
+Dump of file icuin55.dll
+  Section contains the following exports for icuin55.dll
+Dump of file icuuc55.dll
+  Section contains the following exports for icuuc55.dll
+Dump of file iges_x64_vc15.dll
+  Section contains the following exports for iges_x64_vc15.dll
+Dump of file jt83.dll
+jt83.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file Jt930.dll
+Jt930.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file Jt941.dll
+  Section contains the following exports for Jt941.dll
+      46192 B46F 00702270 ?setOverrideArrowScale@CaeLegend@CaeVisUtil@Jt@@QEAAXAEBM@Z
+      46193 B470 00702280 ?setOverrideDeformScale@CaeLegend@CaeVisUtil@Jt@@QEAAXAEBM@Z
+      46194 B471 000E1890 ?setOverrideVertexColors@JtMaterial@@QEAA_N_N@Z
+Dump of file jtBrep83.dll
+jtBrep83.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file jtImageIO83.dll
+jtImageIO83.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file jtLibra83.dll
+jtLibra83.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file jtSimp83.dll
+jtSimp83.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file jtSupt83.dll
+jtSupt83.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file JtTk103.dll
+JtTk103.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file JtTk104.dll
+  Section contains the following exports for JtTk104.dll
+       4548 11C3 00151560 ?setOverrideVertexColors@_JtkMaterial@@QEAAH_N@Z
+Dump of file jtTk90.dll
+jtTk90.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file jtXTBrep83.dll
+jtXTBrep83.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file laszip.dll
+  Section contains the following exports for laszip.dll
+Dump of file libEGL.dll
+  Section contains the following exports for libEGL.dll
+Dump of file libGLESv2.dll
+  Section contains the following exports for libGLESv2.dll
+Dump of file libodxdll.dll
+  Section contains the following exports for libodxdll.dll
+Dump of file libspel.dll
+  Section contains the following exports for libspel.dll
+Dump of file libxml2.dll
+  Section contains the following exports for libxml2.dll
+Dump of file LMVCore.dll
+  Section contains the following exports for LMVCore.dll
+Dump of file LMVPackage.dll
+  Section contains the following exports for LMVPackage.dll
+Dump of file Log4CPlusU_Ad_1.dll
+Dump of file ManagedMC3.dll
+Dump of file MaterialLibraryParser.dll
+Dump of file MC3.dll
+  Section contains the following exports for MC3.dll
+Dump of file mfcmifc80.dll
+Dump of file MgMdfModel-2_0.dll
+  Section contains the following exports for MgMdfModel-2_0.dll
+Dump of file MgMdfParser-2_0.dll
+  Section contains the following exports for MgMdfParser-2_0.dll
+Dump of file Microsoft.CompilerServices.AsyncTargetingPack.Net4.dll
+Dump of file Microsoft.Expression.Interactions.dll
+Dump of file modlr23.dll
+  Section contains the following exports for modlr23.dll
+Dump of file nwcore.dll
+  Section contains the following exports for nwcore.dll
+Dump of file ODXSW_DLL.dll
+  Section contains the following exports for ODXSW_DLL.dll
+Dump of file odxug_dll.dll
+  Section contains the following exports for odxug_dll.dll
+Dump of file OGSArchive.dll
+  Section contains the following exports for OGSArchive.dll
+Dump of file OGSAtilIntegration.dll
+Dump of file OGSCertificationUtility.dll
+  Section contains the following exports for OGSCertificationUtility.dll
+Dump of file OGSDebugUtil.dll
+  Section contains the following exports for OGSDebugUtil.dll
+Dump of file OGSDeviceDX10.dll
+  Section contains the following exports for OGSDeviceDX10.dll
+Dump of file OGSDeviceDX11.dll
+  Section contains the following exports for OGSDeviceDX11.dll
+Dump of file OGSDeviceDX9.dll
+  Section contains the following exports for OGSDeviceDX9.dll
+Dump of file OGSDevices.dll
+  Section contains the following exports for OGSDevices.dll
+Dump of file OGSFBXAssetTranslator.dll
+  Section contains the following exports for OGSFBXAssetTranslator.dll
+Dump of file OGSGDIFontDevice.dll
+  Section contains the following exports for OGSGDIFontDevice.dll
+Dump of file ogsglobals.dll
+Dump of file OGSGraphics.dll
+  Section contains the following exports for OGSGraphics.dll
+Dump of file OGSIOIntegration.dll
+  Section contains the following exports for OGSIOIntegration.dll
+Dump of file OGSLangHandlerWin.dll
+  Section contains the following exports for OGSLangHandlerWin.dll
+Dump of file OGSMgStylization.dll
+  Section contains the following exports for OGSMgStylization.dll
+Dump of file OGSObjects.dll
+  Section contains the following exports for OGSObjects.dll
+Dump of file OGSProtein.dll
+  Section contains the following exports for OGSProtein.dll
+Dump of file OGSRapidRT.dll
+  Section contains the following exports for OGSRapidRT.dll
+Dump of file OGSRapidRTShaderInterface.dll
+  Section contains the following exports for OGSRapidRTShaderInterface.dll
+Dump of file OGSRapidRTShaders.dll
+  Section contains the following exports for OGSRapidRTShaders.dll
+Dump of file OgsRealityCaptureDM.dll
+Dump of file OGSSHFontDevice.dll
+  Section contains the following exports for OGSSHFontDevice.dll
+Dump of file oletohdi15.dll
+  Section contains the following exports for oletohdi15.dll
+Dump of file opennurbs.dll
+  Section contains the following exports for opennurbs.dll
+Dump of file ParaSupt83.dll
+ParaSupt83.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file ParaSupt930.dll
+ParaSupt930.dll : fatal error LNK1136: invalid or corrupt file
+Dump of file ParaSupt941.dll
+  Section contains the following exports for ParaSupt941.dll
+Dump of file passwordUI.dll
+  Section contains the following exports for passwordUI.dll
+Dump of file pc3edit.dll
+Dump of file PDFNetC.dll
+  Section contains the following exports for PDFNetC.dll
+Dump of file physpen.dll
+Dump of file plcalwiz.dll
+Dump of file plcfmgr.dll
+  Section contains the following exports for plcfmgr.dll
+Dump of file plotcfg15.dll
+  Section contains the following exports for plotcfg15.dll
+Dump of file plotgrad.dll
+  Section contains the following exports for plotgrad.dll
+Dump of file pm15.dll
+  Section contains the following exports for pm15.dll
+Dump of file pmutil15.dll
+  Section contains the following exports for pmutil15.dll
+Dump of file prntprog.dll
+  Section contains the following exports for prntprog.dll
+Dump of file proddata.dll
+Dump of file psbodyshop.dll
+  Section contains the following exports for psbodyshop.dll
+Dump of file psizewiz.dll
+  Section contains the following exports for psizewiz.dll
+Dump of file pskernel.dll
+Dump of file psxttoolkit.dll
+  Section contains the following exports for psxttoolkit.dll
+Dump of file qca_Ad_2.dll
+  Section contains the following exports for qca_Ad_2.dll
+Dump of file qoauth_Ad_1.dll
+  Section contains the following exports for qoauth_Ad_1.dll
+Dump of file Qt5Core_Ad_5_9.dll
+  Section contains the following exports for Qt5Core_Ad_5_9.dll
+Dump of file Qt5Gui_Ad_5_9.dll
+  Section contains the following exports for Qt5Gui_Ad_5_9.dll
+      22433 57A0 00051200 ?setOverrideCursor@QGuiApplication@@SAXAEBVQCursor@@@Z
+Dump of file Qt5MultimediaWidgets_Ad_5_9.dll
+  Section contains the following exports for Qt5MultimediaWidgets_Ad_5_9.dll
+Dump of file Qt5Multimedia_Ad_5_9.dll
+  Section contains the following exports for Qt5Multimedia_Ad_5_9.dll
+Dump of file Qt5Network_Ad_5_9.dll
+  Section contains the following exports for Qt5Network_Ad_5_9.dll
+Dump of file Qt5OpenGL_Ad_5_9.dll
+  Section contains the following exports for Qt5OpenGL_Ad_5_9.dll
+Dump of file Qt5Positioning_Ad_5_9.dll
+  Section contains the following exports for Qt5Positioning_Ad_5_9.dll
+Dump of file Qt5PrintSupport_Ad_5_9.dll
+  Section contains the following exports for Qt5PrintSupport_Ad_5_9.dll
+Dump of file Qt5Qml_Ad_5_9.dll
+  Section contains the following exports for Qt5Qml_Ad_5_9.dll
+Dump of file Qt5Quick_Ad_5_9.dll
+  Section contains the following exports for Qt5Quick_Ad_5_9.dll
+Dump of file Qt5Sensors_Ad_5_9.dll
+  Section contains the following exports for Qt5Sensors_Ad_5_9.dll
+Dump of file Qt5Sql_Ad_5_9.dll
+  Section contains the following exports for Qt5Sql_Ad_5_9.dll
+Dump of file Qt5Svg_Ad_5_9.dll
+  Section contains the following exports for Qt5Svg_Ad_5_9.dll
+Dump of file Qt5WebChannel_Ad_5_9.dll
+  Section contains the following exports for Qt5WebChannel_Ad_5_9.dll
+Dump of file Qt5WebEngineWidgets_Ad_5_9.dll
+  Section contains the following exports for Qt5WebEngineWidgets_Ad_5_9.dll
+Dump of file Qt5WebEngine_Ad_5_9.dll
+  Section contains the following exports for Qt5WebEngine_Ad_5_9.dll
+Dump of file Qt5Widgets_Ad_5_9.dll
+  Section contains the following exports for Qt5Widgets_Ad_5_9.dll
+Dump of file Qt5WinExtras_Ad_5_9.dll
+  Section contains the following exports for Qt5WinExtras_Ad_5_9.dll
+Dump of file Qt5XmlPatterns_Ad_5_9.dll
+  Section contains the following exports for Qt5XmlPatterns_Ad_5_9.dll
+Dump of file Qt5XML_Ad_5_9.dll
+Dump of file QTSOLUTIONS_MFCMIGRATIONFRAMEWORK_Ad_2.dll
+Dump of file R14PSKit.dll
+  Section contains the following exports for R14PSKit.dll
+Dump of file regacad23.dll
+  Section contains the following exports for regacad23.dll
+Dump of file resize.dll
+Dump of file rmgrsubs2.dll
+  Section contains the following exports for rmgrsubs2.dll
+Dump of file rosemath_x64_vc15.dll
+  Section contains the following exports for rosemath_x64_vc15.dll
+Dump of file rose_x64_vc15.dll
+  Section contains the following exports for rose_x64_vc15.dll
+Dump of file rti.dll
+  Section contains the following exports for rti.dll
+Dump of file sharemfc.dll
+Dump of file ShFontParser.dll
+Dump of file stix_x64_vc15.dll
+  Section contains the following exports for stix_x64_vc15.dll
+Dump of file stp_aim_x64_vc15.dll
+  Section contains the following exports for stp_aim_x64_vc15.dll
+Dump of file styedit.dll
+  Section contains the following exports for styedit.dll
+Dump of file styleeng.dll
+  Section contains the following exports for styleeng.dll
+Dump of file synHub.dll
+  Section contains the following exports for synHub.dll
+Dump of file SynHubAdapter.dll
+  Section contains the following exports for SynHubAdapter.dll
+Dump of file tbb.dll
+  Section contains the following exports for tbb.dll
+Dump of file tbbmalloc.dll
+  Section contains the following exports for tbbmalloc.dll
+Dump of file tsplines7A.dll
+  Section contains the following exports for tsplines7A.dll
+      51952 CAEF 00BC7360 ?setOverrideThreadCount@ThreadControl@ts4@@SA?AVOutcome@2@I@Z
+Dump of file ucore46.dll
+  Section contains the following exports for ucore46.dll
+Dump of file udata46.dll
+  Section contains the following exports for udata46.dll
+Dump of file upi2.dll
+  Section contains the following exports for upi2.dll
+Dump of file UPIBridge.dll
+  Section contains the following exports for UPIBridge.dll
+Dump of file userdata.dll
+Dump of file vlabout.dll
+  Section contains the following exports for vlabout.dll
+Dump of file vlcom.dll
+  Section contains the following exports for vlcom.dll
+Dump of file vlide.dll
+  Section contains the following exports for vlide.dll
+Dump of file vllib.dll
+Dump of file vlreac.dll
+  Section contains the following exports for vlreac.dll
+Dump of file vlres.dll
+Dump of file WODXCAT5DLL.dll
+  Section contains the following exports for WODXCAT5DLL.dll
+Dump of file wodxug_dll.dll
+  Section contains the following exports for wodxug_dll.dll
+Dump of file WorkflowBase-1_0-vc140-x64-wt.dll
+  Section contains the following exports for WorkflowBase-1_0-vc140-x64-wt.dll
+Dump of file WorkflowMgd-1_0-vc140-wt.dll
+Dump of file WorkflowMgd.dll
+Dump of file Xalan.Aec.dll
+  Section contains the following exports for Xalan.Aec.dll
+Dump of file XalanMessages.Aec.dll
+  Section contains the following exports for XalanMessages.Aec.dll
+Dump of file xerces-ad-c_3.dll
+  Section contains the following exports for xerces-ad-c_3.dll
+       2933  B74 002019A8 ?fgDOMCharsetOverridesXMLEncoding@XMLUni@xercesc_3_2@@2QB_WB
+Dump of file xirang2.dll
+  Section contains the following exports for xirang2.dll
+Dump of file xirangall-16.dll
+  Section contains the following exports for xirangall-16.dll
+Dump of file AcApp.arx
+  Section contains the following exports for AcApp.arx
+Dump of file AcArray.arx
+  Section contains the following exports for AcArray.arx
+Dump of file acasetup.arx
+Dump of file AcAuthEnviron.arx
+  Section contains the following exports for AcAuthEnviron.arx
+Dump of file AcAutoLoader.arx
+  Section contains the following exports for AcAutoLoader.arx
+Dump of file AcBGPlot.arx
+  Section contains the following exports for AcBGPlot.arx
+Dump of file AcBIMUnderlayArx.arx
+  Section contains the following exports for AcBIMUnderlayArx.arx
+Dump of file acblock.arx
+Dump of file acbrowse.arx
+  Section contains the following exports for acbrowse.arx
+Dump of file AcCamera.arx
+  Section contains the following exports for AcCamera.arx
+Dump of file AcCmMgr.arx
+  Section contains the following exports for AcCmMgr.arx
+Dump of file AcConnectWebServices.arx
+  Section contains the following exports for AcConnectWebServices.arx
+Dump of file accvps.arx
+Dump of file AcDataLink.arx
+  Section contains the following exports for AcDataLink.arx
+Dump of file AcDbPointCloud.arx
+  Section contains the following exports for AcDbPointCloud.arx
+Dump of file acDcDimStyles.arx
+Dump of file acDcFrame.arx
+Dump of file acDcHatch.arx
+Dump of file acDcImages.arx
+Dump of file acDcLayouts.arx
+Dump of file acDcLinetypes.arx
+Dump of file AcDcMlsStys.arx
+  Section contains the following exports for AcDcMlsStys.arx
+Dump of file acDcSymbols.arx
+Dump of file AcDcTblStys.arx
+  Section contains the following exports for AcDcTblStys.arx
+Dump of file acDcTextStyles.arx
+Dump of file acDcXrefs.arx
+Dump of file acddptype.arx
+  Section contains the following exports for acddptype.arx
+Dump of file acddvpoint.arx
+  Section contains the following exports for acddvpoint.arx
+Dump of file AcDgnUI.arx
+  Section contains the following exports for AcDgnUI.arx
+Dump of file AcDim.arx
+Dump of file AcDmPropertyEditors.arx
+  Section contains the following exports for AcDmPropertyEditors.arx
+Dump of file AcDwfMarkupUi.arx
+  Section contains the following exports for AcDwfMarkupUi.arx
+Dump of file AcDwgRecovery.arx
+  Section contains the following exports for AcDwgRecovery.arx
+Dump of file AcEAttedit.arx
+  Section contains the following exports for AcEAttedit.arx
+Dump of file aceTransmitui.arx
+Dump of file AcExperience.arx
+  Section contains the following exports for AcExperience.arx
+Dump of file AcFdUi.arx
+  Section contains the following exports for AcFdUi.arx
+Dump of file AcField.arx
+  Section contains the following exports for AcField.arx
+Dump of file acfilter.arx
+  Section contains the following exports for acfilter.arx
+Dump of file AcGeoLocationUI.arx
+  Section contains the following exports for AcGeoLocationUI.arx
+Dump of file AcGeomUI.arx
+  Section contains the following exports for AcGeomUI.arx
+Dump of file AcGsConfig.arx
+  Section contains the following exports for AcGsConfig.arx
+Dump of file achide.arx
+  Section contains the following exports for achide.arx
+Dump of file acISMui.arx
+  Section contains the following exports for acISMui.arx
+Dump of file AcLayerApps.arx
+  Section contains the following exports for AcLayerApps.arx
+Dump of file aclsobj.arx
+Dump of file acmatch.arx
+Dump of file AcModelDoc.arx
+  Section contains the following exports for AcModelDoc.arx
+Dump of file acmted.arx
+Dump of file acmted2.arx
+Dump of file AcObjClassImp.arx
+  Section contains the following exports for AcObjClassImp.arx
+Dump of file AcOcSchemaUtil.arx
+  Section contains the following exports for AcOcSchemaUtil.arx
+Dump of file acopm.arx
+  Section contains the following exports for acopm.arx
+Dump of file AcOpmExt.arx
+  Section contains the following exports for AcOpmExt.arx
+Dump of file acoscale.arx
+  Section contains the following exports for acoscale.arx
+Dump of file AcParameter.arx
+  Section contains the following exports for AcParameter.arx
+Dump of file AcPEXCtl.arx
+  Section contains the following exports for AcPEXCtl.arx
+Dump of file acpi.arx
+Dump of file AcPlDetails.arx
+  Section contains the following exports for AcPlDetails.arx
+Dump of file AcPlotGui.arx
+  Section contains the following exports for AcPlotGui.arx
+Dump of file AcPltStamp.arx
+  Section contains the following exports for AcPltStamp.arx
+Dump of file AcPublish.arx
+Dump of file AcPurge.arx
+  Section contains the following exports for AcPurge.arx
+Dump of file AcQP.arx
+  Section contains the following exports for AcQP.arx
+Dump of file acqsetup.arx
+Dump of file AcRefEd.arx
+  Section contains the following exports for AcRefEd.arx
+Dump of file acrender.arx
+Dump of file AcSceneUI.arx
+  Section contains the following exports for AcSceneUI.arx
+Dump of file AcSecOpt.arx
+  Section contains the following exports for AcSecOpt.arx
+Dump of file AcSection.arx
+  Section contains the following exports for AcSection.arx
+Dump of file AcShareView.arx
+  Section contains the following exports for AcShareView.arx
+Dump of file AcSign.arx
+  Section contains the following exports for AcSign.arx
+Dump of file acsiui.arx
+  Section contains the following exports for acsiui.arx
+Dump of file AcSmNav.arx
+  Section contains the following exports for AcSmNav.arx
+Dump of file AcSmWizard.arx
+  Section contains the following exports for AcSmWizard.arx
+Dump of file AcStar.arx
+  Section contains the following exports for AcStar.arx
+Dump of file AcStd.arx
+  Section contains the following exports for AcStd.arx
+Dump of file acSubD.arx
+Dump of file AcTable.arx
+  Section contains the following exports for AcTable.arx
+Dump of file AcTcTools.arx
+  Section contains the following exports for AcTcTools.arx
+Dump of file AcTp.arx
+  Section contains the following exports for AcTp.arx
+Dump of file AcTranslatorsUI.arx
+  Section contains the following exports for AcTranslatorsUI.arx
+Dump of file AcVDiff.arx
+  Section contains the following exports for AcVDiff.arx
+Dump of file AcViewMgr.arx
+  Section contains the following exports for AcViewMgr.arx
+Dump of file AcVisualStylesManager.arx
+  Section contains the following exports for AcVisualStylesManager.arx
+Dump of file AcVMTools.arx
+  Section contains the following exports for AcVMTools.arx
+Dump of file AcVpPlace.arx
+  Section contains the following exports for AcVpPlace.arx
+Dump of file acwebpublish.arx
+Dump of file AcWorkflow.arx
+  Section contains the following exports for AcWorkflow.arx
+Dump of file AcXopen.arx
+  Section contains the following exports for AcXopen.arx
+Dump of file AcXrefEsw.arx
+  Section contains the following exports for AcXrefEsw.arx
+Dump of file AcXrefService.arx
+  Section contains the following exports for AcXrefService.arx
+Dump of file AcXrefVaultInterface.arx
+  Section contains the following exports for AcXrefVaultInterface.arx
+Dump of file AecLoader.arx
+  Section contains the following exports for AecLoader.arx
+Dump of file appload.arx
+Dump of file asdkTPCtest.arx
+Dump of file ase.arx
+Dump of file asilisp.arx
+Dump of file attedit.arx
+  Section contains the following exports for attedit.arx
+Dump of file Battman.arx
+  Section contains the following exports for Battman.arx
+Dump of file condlg.arx
+Dump of file dwgaids.arx
+  Section contains the following exports for dwgaids.arx
+Dump of file GsTest.arx
+Dump of file Laytrans.arx
+  Section contains the following exports for Laytrans.arx
+Dump of file Laywalk.arx
+Dump of file textedit.arx
+  Section contains the following exports for textedit.arx
+Dump of file textfind.arx
+Dump of file units.arx
+Dump of file vl.arx
+  Section contains the following exports for vl.arx
+Dump of file AcBIMUnderlayDbx.dbx
+  Section contains the following exports for AcBIMUnderlayDbx.dbx
+Dump of file acbr23.dbx
+  Section contains the following exports for acbr23.dbx
+Dump of file AcDbPointCloudObj.dbx
+  Section contains the following exports for AcDbPointCloudObj.dbx
+Dump of file AcDbSmartCenter.dbx
+  Section contains the following exports for AcDbSmartCenter.dbx
+Dump of file AcDgnIO.dbx
+  Section contains the following exports for AcDgnIO.dbx
+Dump of file AcDgnLS.dbx
+  Section contains the following exports for AcDgnLS.dbx
+Dump of file AcDgnLsTrans.dbx
+  Section contains the following exports for AcDgnLsTrans.dbx
+Dump of file AcGeoLocationObj.dbx
+Dump of file AcIdViewObj.dbx
+  Section contains the following exports for AcIdViewObj.dbx
+Dump of file acismobj23.dbx
+  Section contains the following exports for acismobj23.dbx
+Dump of file AcLightWeightEngine.dbx
+Dump of file AcModelDocObj.dbx
+  Section contains the following exports for AcModelDocObj.dbx
+       2373  944 000DFFE0 ?isLabelOffsetOverriden@AcDbAssocViewLabelActionParam@@QEBA_NXZ
+       3118  C2D 000E0090 ?setLabelOffsetOverride@AcDbAssocViewLabelActionParam@@QEAAXAEBVAcGeVector2d@@@Z
+       3119  C2E 000E00E0 ?setLabelOffsetOverride@AcDbAssocViewLabelActionParam@@QEAAXXZ
+       3160  C57 00141660 ?setOverrideContext@AcDbViewRepModelSpaceViewMgr@@QEAAXPEAVAcDbViewRepModelSpaceViewMgrContext@@@Z
+Dump of file AcMPolygonObj23.dbx
+  Section contains the following exports for AcMPolygonObj23.dbx
+Dump of file AcRCEngine.dbx
+  Section contains the following exports for AcRCEngine.dbx
+Dump of file AcSceneOE.dbx
+  Section contains the following exports for AcSceneOE.dbx
+Dump of file AcShareViewPropsACA.dbx
+  Section contains the following exports for AcShareViewPropsACA.dbx
+Dump of file AcShareViewPropsPE.dbx
+  Section contains the following exports for AcShareViewPropsPE.dbx
+Dump of file AecArchBase.dbx
+  Section contains the following exports for AecArchBase.dbx
+Dump of file AecAreaCalculationBase.dbx
+  Section contains the following exports for AecAreaCalculationBase.dbx
+Dump of file AecBase.dbx
+  Section contains the following exports for AecBase.dbx
+Dump of file AecBaseEx.dbx
+  Section contains the following exports for AecBaseEx.dbx
+Dump of file AecbBldSrv.dbx
+  Section contains the following exports for AecbBldSrv.dbx
+Dump of file AecbCol.dbx
+  Section contains the following exports for AecbCol.dbx
+Dump of file AecbElecBase.dbx
+  Section contains the following exports for AecbElecBase.dbx
+Dump of file AecbHvacBase.dbx
+  Section contains the following exports for AecbHvacBase.dbx
+Dump of file AecbPipeBase.dbx
+  Section contains the following exports for AecbPipeBase.dbx
+Dump of file AecbPlumbingBase.dbx
+  Section contains the following exports for AecbPlumbingBase.dbx
+Dump of file AecbTools.dbx
+  Section contains the following exports for AecbTools.dbx
+Dump of file AecDACHMigratorDb.dbx
+  Section contains the following exports for AecDACHMigratorDb.dbx
+Dump of file AeciIb.dbx
+  Section contains the following exports for AeciIb.dbx
+Dump of file AecModeler.dbx
+  Section contains the following exports for AecModeler.dbx
+Dump of file AecProjectBase.dbx
+  Section contains the following exports for AecProjectBase.dbx
+Dump of file AecRenovationDb.dbx
+  Section contains the following exports for AecRenovationDb.dbx
+Dump of file AecRoomBookDb.dbx
+  Section contains the following exports for AecRoomBookDb.dbx
+Dump of file AecSchedule.dbx
+  Section contains the following exports for AecSchedule.dbx
+Dump of file AecSolidModeler.dbx
+  Section contains the following exports for AecSolidModeler.dbx
+Dump of file AecSpaceExDb.dbx
+  Section contains the following exports for AecSpaceExDb.dbx

@@ -68,6 +68,9 @@
     <DebugType>none</DebugType>
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="acdbmgd">
       <Name>acdbmgd</Name>
@@ -94,6 +97,11 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>echo autohotkey "$(ProjectDir)executeInAutocad.ahk" "$(TargetPath)" &gt; execute_in_autocad.bat</PostBuildEvent>
+    <PostBuildEvent>:: echo autohotkey "$(ProjectDir)executeInAutocad.ahk" "$(TargetPath)" &gt; execute_in_autocad.bat
+copy "$(ProjectDir)test_drawing.dwg" "$(TargetDir)test_drawing.dwt"
+:: echo (command-s "netload" "$(TargetFileName)") &gt; "$(TargetDir)startup_script.scr"
+:: must not have newline in echo
+&lt;nul set /p =netload "$(TargetPath)" &gt; "$(TargetDir)startup_script.scr"
+EXIT /B 0</PostBuildEvent>
   </PropertyGroup>
 </Project>

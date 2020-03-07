@@ -1,11 +1,11 @@
 //
 //////////////////////////////////////////////////////////////////////////////
 //
-//  Copyright 2019 Autodesk, Inc.  All rights reserved.
+//  
 //
-//  Use of this software is subject to the terms of the Autodesk license 
-//  agreement provided at the time of installation or download, or which 
-//  otherwise accompanies this software in either electronic or hard copy form.   
+//  
+//  
+//  
 //
 //////////////////////////////////////////////////////////////////////////////
 
@@ -23,18 +23,18 @@ using System.Diagnostics;
 using Autodesk.AutoCAD.EditorInput;
 using Autodesk.AutoCAD.GraphicsInterface;
 
-[assembly: Autodesk.AutoCAD.Runtime.ExtensionApplication(typeof(mleader_remove_style_override.mleader_remove_style_overrideApp))]
-[assembly: Autodesk.AutoCAD.Runtime.CommandClass(typeof(mleader_remove_style_override.mleader_remove_style_overrideCommands))]
+[assembly: Autodesk.AutoCAD.Runtime.ExtensionApplication(typeof(mleader_remove_style_override.Mleader_remove_style_overrideApp))]
+[assembly: Autodesk.AutoCAD.Runtime.CommandClass(typeof(mleader_remove_style_override.Mleader_remove_style_overrideCommands))]
 
 
 //This application implements a command called ellipsejig. It will help you 
 //create an ellipse from scratch by doing a jig. The user is first asked to
 //enter the ellipse major axis followed by ellipse minor axis. 
 
-//To use ellipsejig.dll:
+//To use mleader_remove_style_override.dll:
 //1. Start AutoCAD and open a new drawing.
-//2. Type netload and select ellipsejig.dll.
-//3. Execute the ellipsejig command, defined by ellipsejig.dll.
+//2. Type netload and select mleader_remove_style_override.dll.
+//3. Execute the ellipsejig command, defined by mleader_remove_style_override.dll.
 
 //Please add the References acdbmgd.dll,acmgd.dll,
 //Autodesk.AutoCAD.Interop.dll and Autodesk.AutoCAD.Interop.Common.dll
@@ -42,9 +42,11 @@ using Autodesk.AutoCAD.GraphicsInterface;
 
 namespace mleader_remove_style_override
 {
-    public class mleader_remove_style_overrideApp : Autodesk.AutoCAD.Runtime.IExtensionApplication
+
+
+    public class Mleader_remove_style_overrideApp : Autodesk.AutoCAD.Runtime.IExtensionApplication
     {
-        public mleader_remove_style_overrideApp()
+        public Mleader_remove_style_overrideApp()
         {
 
 
@@ -52,7 +54,7 @@ namespace mleader_remove_style_override
 
         public void Initialize()
         {
-
+            Mleader_remove_style_overrideCommands.Foo();
 
         }
 
@@ -64,9 +66,125 @@ namespace mleader_remove_style_override
 
     }
 
-    public class mleader_remove_style_overrideCommands
+    public class Mleader_remove_style_overrideCommands
     {
-		class EllipseJig : EntityJig	
+
+        // The c++ function is declared as:
+        //  Acad::ErrorStatus AcDbMLeader::setOverride(
+        //      PropertyOverrideType propertyType,
+        //      bool isOverride = true
+        //  );
+
+        //      Dump of file acdb23.dll
+        //Section contains the following exports for acdb23.dll
+        //    18607 48A0 00A3EE04? setOverride@AcDbDimensionObjectContextData@@UEAA? AW4ErrorStatus@Acad@@W4Code @AcDm@@_N @Z
+        //    18608 48A1 00A8EDBC? setOverride@AcDbFormattedTableData@@UEAA? AW4ErrorStatus@Acad@@HHHW4CellProperty @AcDb@@@Z
+        //    18609 48A2 00A8EDD0? setOverride@AcDbFormattedTableData@@UEAA? AW4ErrorStatus@Acad@@HHW4GridLineType @AcDb@@W4GridProperty@5@@Z
+        //    18610 48A3 00A88A30? setOverride@AcDbMLeader@@QEAA? AW4ErrorStatus@Acad@@W4PropertyOverrideType@1@_N @Z
+        //    18611 48A4 00A70928? setOverride@AcDbTable@@QEAA? AW4ErrorStatus@Acad@@HHHW4CellProperty @AcDb@@@Z
+        //    18612 48A5 00A70970? setOverride@AcDbTable@@QEAA? AW4ErrorStatus@Acad@@HHW4GridLineType @AcDb@@W4GridProperty@5@@Z
+        //    18613 48A6 00AA638C? setOverrideCenter@AcDbRadialDimensionLarge@@QEAA? AW4ErrorStatus@Acad@@AEBVAcGePoint3d@@@Z
+        //    18614 48A7 00A84A60? setOverrideCenter@AcDbRadialDimensionLargeObjectContextData@@QEAA? AW4ErrorStatus@Acad@@AEBVAcGePoint3d@@@Z
+        //    18615 48A8 00AA6664? setOverrideCenterPP@AcDbRadialDimensionLarge@@QEAA? AW4ErrorStatus@Acad@@AEBVAcGePoint3d@@@Z
+        //    18616 48A9 00A50720? setOverridenItems@AcDbAssocArrayModifyActionBody@@QEAA? AW4ErrorStatus@Acad@@AEBV?$AcArray @VAcDbItemLocator@@V?$AcArrayObjectCopyReallocator @VAcDbItemLocator@@@@@@@Z
+
+
+
+        // 18610 48A3 00A88A30? setOverride@AcDbMLeader@@QEAA? AW4ErrorStatus@Acad@@W4PropertyOverrideType@1@_N @Z
+
+        /*
+         * 
+         * 
+               enum AcDbMLeader::PropertyOverrideType {
+                   kLeaderLineType = 0,
+                   kLeaderLineColor = 1,
+                   kLeaderLineTypeId = 2,
+                   kLeaderLineWeight = 3,
+                   kEnableLanding = 4,
+                   kLandingGap = 5,
+                   kEnableDogleg = 6,
+                   kDoglegLength = 7,
+                   kArrowSymbolId = 8,
+                   kArrowSize = 9,
+                   kContentType = 10,
+                   kTextStyleId = 11,
+                   kTextLeftAttachmentType = 12,
+                   kTextAngleType = 13,
+                   kTextAlignmentType = 14,
+                   kTextColor = 15,
+                   kTextHeight = 16,
+                   kEnableFrameText = 17,
+                   kDefaultMText = 18,
+                   kBlockId = 19,
+                   kBlockColor = 20,
+                   kBlockScale = 21,
+                   kBlockRotation = 22,
+                   kBlockConnectionType = 23,
+                   kScale = 24,
+                   kTextRightAttachmentType = 25,
+                   kTextSwitchAlignmentType = 26,
+                   kTextAttachmentDirection = 27,
+                   kTextTopAttachmentType = 28,
+                   kTextBottomAttachmentType = 29,
+                   kExtendLeaderToText = 30,
+                   kSize = kExtendLeaderToText+1
+             };
+         * 
+         * 
+         * 
+         */
+
+        /*
+         * 
+            Dump of file acdb23.dll
+            Section contains the following exports for acdb23.dll
+              12927 3272 00A88374 ?isOverride@AcDbMLeader@@QEBA_NW4PropertyOverrideType@1@@Z
+         * */
+
+
+        //[DllImport("acdb23.dll", CallingConvention = CallingConvention.ThisCall, EntryPoint = "?setOverride@AcDbMLeader@@QEAA", CharSet = CharSet.Auto)]
+        [DllImport("acdb23.dll", CallingConvention = CallingConvention.ThisCall, EntryPoint = "?isOverride@AcDbMLeader@@QEBA_NW4PropertyOverrideType@1@@Z", CharSet = CharSet.Auto)]
+
+        //public static extern ErrorStatus setOverride( IntPtr target , [MarshalAs(UnmanagedType.SysUInt)] int propertyType, [MarshalAs(UnmanagedType.Bool)] bool isOverride);
+        public static extern bool isOverride(IntPtr target, [MarshalAs(UnmanagedType.SysUInt)] int propertyType);
+
+        static public void Foo()
+        {
+            Document document = Application.DocumentManager.MdiActiveDocument;
+            Database database = document.Database;
+            Autodesk.AutoCAD.DatabaseServices.TransactionManager transactionManager = database.TransactionManager;
+            using (Transaction transaction = transactionManager.StartTransaction())
+            {
+                document.Editor.WriteMessage("HOORAY\n");
+                BlockTable blockTable = (BlockTable)transactionManager.GetObject(database.BlockTableId, OpenMode.ForRead, openErased: false);
+                BlockTableRecord blockTableRecord = (BlockTableRecord)transactionManager.GetObject(blockTable[BlockTableRecord.ModelSpace], OpenMode.ForWrite, false);
+                foreach (Autodesk.AutoCAD.DatabaseServices.ObjectId objectId in blockTableRecord)
+                {
+                    DBObject dbObject = objectId.GetObject(OpenMode.ForRead);
+                    document.Editor.WriteMessage("type: " + dbObject.GetType() + "\n");
+                    if(dbObject.GetType() == typeof(MLeader))
+                    {
+                        document.Editor.WriteMessage("We found a multileader.\n");
+                        MLeader mLeader = (MLeader)dbObject;
+
+                        // damn: the .net api does not expose the functions related to mleader style overrides.
+                        //mLeader.isoverride(MLeader.PropertyOverrideType.kLeaderLineType);
+                        //MLeader.setOverride(MLeader.PropertyOverrideType.kLeaderLineType, false);
+                        //kLeaderLineType
+
+                        //ErrorStatus result = setOverride(mLeader.UnmanagedObject, 16, false);
+
+                        bool result = isOverride(mLeader.UnmanagedObject, 16);
+                        document.Editor.WriteMessage("result: " + result + "\n");
+                    }
+
+                    
+                }
+            }
+
+        }
+
+        class EllipseJig : EntityJig	
 		{
 			Point3d mCenterPt,mAxisPt,acquiredPoint;
 			Vector3d mNormal,mMajorAxis;
@@ -238,36 +356,37 @@ namespace mleader_remove_style_override
 		[CommandMethod("ellipsejig")]
 		static public void DoIt()
 		{
-			Editor ed = Application.DocumentManager.MdiActiveDocument.Editor;   
-			PromptPointOptions opts = new PromptPointOptions("\nEnter Ellipse Center Point:");
-			PromptPointResult res = ed.GetPoint(opts);
+            Foo();
+			//Editor ed = Application.DocumentManager.MdiActiveDocument.Editor;   
+			//PromptPointOptions opts = new PromptPointOptions("\nEnter Ellipse Center Point:");
+			//PromptPointResult res = ed.GetPoint(opts);
 
-			Vector3d x = Application.DocumentManager.MdiActiveDocument.Database.Ucsxdir;
-			Vector3d y = Application.DocumentManager.MdiActiveDocument.Database.Ucsydir;
-			Vector3d NormalVec = x.CrossProduct(y);
+			//Vector3d x = Application.DocumentManager.MdiActiveDocument.Database.Ucsxdir;
+			//Vector3d y = Application.DocumentManager.MdiActiveDocument.Database.Ucsydir;
+			//Vector3d NormalVec = x.CrossProduct(y);
 		
 
-			Database db = Application.DocumentManager.MdiActiveDocument.Database;
-			Autodesk.AutoCAD.DatabaseServices.TransactionManager tm = db.TransactionManager;
+			//Database db = Application.DocumentManager.MdiActiveDocument.Database;
+			//Autodesk.AutoCAD.DatabaseServices.TransactionManager tm = db.TransactionManager;
 		
-			//Create Ellipsejig
-			EllipseJig jig = new EllipseJig(res.Value,NormalVec.GetNormal());
-			//first call drag to get the major axis
-			jig.setPromptCounter(0);
-			Application.DocumentManager.MdiActiveDocument.Editor.Drag(jig);
-			// Again call drag to get minor axis					
-			jig.setPromptCounter(1);
-			Application.DocumentManager.MdiActiveDocument.Editor.Drag(jig);
+			////Create Ellipsejig
+			//EllipseJig jig = new EllipseJig(res.Value,NormalVec.GetNormal());
+			////first call drag to get the major axis
+			//jig.setPromptCounter(0);
+			//Application.DocumentManager.MdiActiveDocument.Editor.Drag(jig);
+			//// Again call drag to get minor axis					
+			//jig.setPromptCounter(1);
+			//Application.DocumentManager.MdiActiveDocument.Editor.Drag(jig);
 
-			//Append entity.
-			using (Transaction myT = tm.StartTransaction())
-			{              
-				BlockTable bt = (BlockTable)tm.GetObject(db.BlockTableId,OpenMode.ForRead,false);
-				BlockTableRecord btr = (BlockTableRecord)tm.GetObject(bt[BlockTableRecord.ModelSpace],OpenMode.ForWrite,false);
-				btr.AppendEntity(jig.GetEntity());
-				tm.AddNewlyCreatedDBObject(jig.GetEntity(),true);
-				myT.Commit();
-			}
+			////Append entity.
+			//using (Transaction myT = tm.StartTransaction())
+			//{              
+			//	BlockTable bt = (BlockTable)tm.GetObject(db.BlockTableId,OpenMode.ForRead,false);
+			//	BlockTableRecord btr = (BlockTableRecord)tm.GetObject(bt[BlockTableRecord.ModelSpace],OpenMode.ForWrite,false);
+			//	btr.AppendEntity(jig.GetEntity());
+			//	tm.AddNewlyCreatedDBObject(jig.GetEntity(),true);
+			//	myT.Commit();
+			//}
 
 				
 		}

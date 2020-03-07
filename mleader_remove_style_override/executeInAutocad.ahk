@@ -15,6 +15,9 @@ Loop, %1%
 {
   inputFile=%A_LoopFileLongPath%
 }
+SplitPath, inputFile, inputFileName, inputFileDirectory, inputFileExtension, inputFileBasename
+tempFile:=A_Temp . "\" . inputFileBasename . A_TickCount . "." . inputFileExtension
+FileCopy, %inputFile%, %tempFile%
 
 ;Get the currently active window  
 WinGet, originalActiveWindow, ID, A
@@ -32,7 +35,7 @@ Sleep, 100
 
 
 
-acadCommand:="(command-s "".NETLOAD""  " . """" . addSlashes(inputFile) . """" . ")(princ)" . " "
+acadCommand:="(command-s "".NETLOAD""  " . """" . addSlashes(tempFile) . """" . ")(princ)" . " "
 
 Send {Esc}{Esc} ;;cancels any running autocad command
 SendRaw %acadCommand%

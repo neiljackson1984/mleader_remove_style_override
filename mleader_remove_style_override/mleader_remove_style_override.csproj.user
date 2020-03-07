@@ -5,15 +5,15 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartAction>Program</StartAction>
-    <StartProgram>C:\Windows\System32\cmd.exe</StartProgram>
+    <StartProgram>C:\Program Files\Autodesk\AutoCAD 2020\acad.exe</StartProgram>
     <StartWorkingDirectory>
     </StartWorkingDirectory>
-    <StartArguments>/c execute_in_autocad.bat</StartArguments>
+    <StartArguments>/six /nossm /nologo /t test_drawing.dwt /b startup_script.scr</StartArguments>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <StartAction>Program</StartAction>
-    <StartProgram>C:\Windows\System32\cmd.exe</StartProgram>
-    <StartArguments>/c execute_in_autocad.bat</StartArguments>
+    <StartProgram>C:\Program Files\Autodesk\AutoCAD 2020\acad.exe</StartProgram>
+    <StartArguments>/t test_drawing.dwt /b startup_script.scr</StartArguments>
   </PropertyGroup>
 </Project>
